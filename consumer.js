@@ -1,5 +1,7 @@
 const amqp = require("amqplib");
 
+connect();
+
 const connect = async () => {
 
     try {
